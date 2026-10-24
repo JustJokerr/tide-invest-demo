@@ -1,0 +1,18 @@
+{
+  "name": "观潮 · A股行情与模拟交易",
+  "short_name": "观潮",
+  "description": "真实 A 股行情、模拟交易、记账分析与价格提醒",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

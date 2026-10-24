@@ -1,0 +1,19 @@
+{
+  "name": "tide-invest-demo",
+  "private": true,
+  "version": "4.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-static.mjs && node scripts/serve.mjs",
+    "build": "node scripts/build-static.mjs",
+    "preview": "node scripts/build-static.mjs && node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.0",
+    "rollup": "^4.0.0"
+  }
+}
